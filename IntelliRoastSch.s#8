@@ -11821,7 +11821,7 @@ Metric Code Size 5664</description>
 <part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1"/>
 <part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1"/>
 <part name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1"/>
-<part name="U$1" library="IntelliRoast" deviceset="L" device="POWER_REGULATOR"/>
+<part name="L1" library="IntelliRoast" deviceset="L" device="POWER_REGULATOR"/>
 </parts>
 <sheets>
 <sheet>
@@ -13553,7 +13553,7 @@ Metric Code Size 5664</description>
 <attribute name="NAME" x="138.176" y="43.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.176" y="38.989" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="53.34" y="22.86" smashed="yes" rot="R90">
+<instance part="L1" gate="G$1" x="53.34" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.42" y="21.59" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="58.42" y="26.67" size="1.778" layer="96" rot="R180"/>
 </instance>
