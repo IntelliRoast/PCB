@@ -16387,6 +16387,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1000"/>
 <part name="J1" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 <part name="J2" library="adafruit" deviceset="1X2" device="-3.5MM"/>
+<part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:6240334/1"/>
+<part name="C6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1"/>
+<part name="C7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1"/>
+<part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -18172,6 +18177,25 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="L1" gate="G$1" x="53.34" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.42" y="21.59" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="58.42" y="26.67" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V1" gate="G$1" x="127" y="60.96" smashed="yes">
+<attribute name="VALUE" x="124.46" y="55.88" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C5" gate="G$1" x="76.2" y="71.12" smashed="yes">
+<attribute name="NAME" x="77.216" y="71.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.216" y="66.929" size="1.778" layer="96"/>
+</instance>
+<instance part="C6" gate="G$1" x="88.9" y="71.12" smashed="yes">
+<attribute name="NAME" x="89.916" y="71.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="89.916" y="66.929" size="1.778" layer="96"/>
+</instance>
+<instance part="C7" gate="G$1" x="99.06" y="71.12" smashed="yes">
+<attribute name="NAME" x="100.076" y="71.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="100.076" y="66.929" size="1.778" layer="96"/>
+</instance>
+<instance part="C8" gate="G$1" x="109.22" y="71.12" smashed="yes">
+<attribute name="NAME" x="110.236" y="71.755" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.236" y="66.929" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
