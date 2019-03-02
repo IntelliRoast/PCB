@@ -10835,16 +10835,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="CN10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X17" device="" package3d_urn="urn:adsk.eagle:package:22495/2"/>
 <part name="U1" library="LM2576HVS-3.3_NOPB" deviceset="LM2576HVS-3.3/NOPB" device=""/>
 <part name="D1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="SCHOTTKY-DIODE" device="SMC" package3d_urn="urn:adsk.eagle:package:13317/1"/>
-<part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:6240334/1"/>
-<part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1"/>
-<part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1"/>
-<part name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1"/>
+<part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:6240334/1" value="100uF"/>
+<part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10uF"/>
+<part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="0.1uF"/>
+<part name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="0.1uF"/>
 <part name="L1" library="IntelliRoast" deviceset="L" device="POWER_REGULATOR"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:6240334/1"/>
-<part name="C6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1"/>
-<part name="C7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1"/>
-<part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1"/>
+<part name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:6240334/1" value="100uF"/>
+<part name="C6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10uF"/>
+<part name="C7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="0.1uF"/>
+<part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value="0.1uF"/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -11005,28 +11005,28 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="CN10" gate="G$1" pin="4"/>
 <wire x1="-25.4" y1="109.22" x2="-17.78" y2="109.22" width="0.1524" layer="91"/>
-<label x="-17.78" y="109.22" size="1.778" layer="95" xref="yes"/>
+<label x="-17.78" y="109.22" size="1.524" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI2_CS0" class="0">
 <segment>
 <pinref part="CN10" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="111.76" x2="-17.78" y2="111.76" width="0.1524" layer="91"/>
-<label x="-17.78" y="111.76" size="1.778" layer="95" xref="yes"/>
+<label x="-17.78" y="111.76" size="1.524" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI1_MISO" class="0">
 <segment>
 <pinref part="CN7" gate="A" pin="12"/>
 <wire x1="-25.4" y1="132.08" x2="-15.24" y2="132.08" width="0.1524" layer="91"/>
-<label x="-15.24" y="132.08" size="1.778" layer="95" xref="yes"/>
+<label x="-15.24" y="132.08" size="1.524" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI1_SCK" class="0">
 <segment>
 <pinref part="CN7" gate="A" pin="10"/>
 <wire x1="-25.4" y1="134.62" x2="-15.24" y2="134.62" width="0.1524" layer="91"/>
-<label x="-15.24" y="134.62" size="1.778" layer="95" xref="yes"/>
+<label x="-15.24" y="134.62" size="1.524" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BT_RX" class="0">
@@ -11052,14 +11052,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="CN10" gate="G$1" pin="8"/>
 <wire x1="-25.4" y1="104.14" x2="-17.78" y2="104.14" width="0.1524" layer="91"/>
-<label x="-17.78" y="104.14" size="1.778" layer="95" xref="yes"/>
+<label x="-17.78" y="104.14" size="1.524" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI1_CS3" class="0">
 <segment>
 <pinref part="CN10" gate="G$1" pin="6"/>
 <wire x1="-25.4" y1="106.68" x2="-17.78" y2="106.68" width="0.1524" layer="91"/>
-<label x="-17.78" y="106.68" size="1.778" layer="95" xref="yes"/>
+<label x="-17.78" y="106.68" size="1.524" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MIC_IN" class="0">
@@ -11078,8 +11078,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="BT_HEADER" gate="A" pin="1"/>
 <wire x1="53.34" y1="129.54" x2="40.64" y2="129.54" width="0.1524" layer="91"/>
-<label x="33.02" y="137.16" size="1.778" layer="95"/>
 <wire x1="40.64" y1="129.54" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
+<label x="40.64" y="137.16" size="1.524" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CN10" gate="G$1" pin="10"/>
+<wire x1="-25.4" y1="101.6" x2="-17.78" y2="101.6" width="0.1524" layer="91"/>
+<label x="-17.78" y="101.6" size="1.524" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BT_STATE" class="0">
@@ -11087,6 +11092,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="BT_HEADER" gate="A" pin="6"/>
 <wire x1="53.34" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
 <label x="35.56" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN10" gate="G$1" pin="12"/>
+<wire x1="-25.4" y1="99.06" x2="-17.78" y2="99.06" width="0.1524" layer="91"/>
+<label x="-17.78" y="99.06" size="1.524" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -11168,9 +11178,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-116.84" y1="134.62" x2="-104.14" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="134.62" x2="-104.14" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="CN8" gate="A" pin="11"/>
-<pinref part="CN8" gate="A" pin="13"/>
-<wire x1="-96.52" y1="129.54" x2="-96.52" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="132.08" x2="-96.52" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="CN8" gate="A" pin="13"/>
+<wire x1="-96.52" y1="129.54" x2="-104.14" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="129.54" x2="-104.14" y2="132.08" width="0.1524" layer="91"/>
+<junction x="-104.14" y="132.08"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11664,6 +11676,30 @@ Fan
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,3,71.12,60.96,U1,VIN,+12V,,,"/>
+<approved hash="106,1,-33.02,76.2,TIM2_CH1,,,,,"/>
+<approved hash="106,1,-33.02,86.36,TIM4_CH1,,,,,"/>
+<approved hash="113,2,142.136,107.846,FRAME1,,,,,"/>
+<approved hash="113,1,-17.884,90.066,FRAME2,,,,,"/>
+<approved hash="113,1,-92.7523,98.0161,CN9,,,,,"/>
+<approved hash="113,1,-92.7523,137.386,CN8,,,,,"/>
+<approved hash="113,1,-29.2523,134.846,CN7,,,,,"/>
+<approved hash="113,1,-29.2523,92.9361,CN10,,,,,"/>
+<approved hash="113,3,90.1471,30.48,D1,,,,,"/>
+<approved hash="113,4,7.516,6.246,FRAME4,,,,,"/>
+<approved hash="113,3,91.336,13.866,FRAME5,,,,,"/>
+<approved hash="113,4,-21.0209,-7.62,Q2,,,,,"/>
+<approved hash="113,4,-16.4846,0,D2,,,,,"/>
+<approved hash="113,1,55.9396,124.686,BT_HEADER,,,,,"/>
+<approved hash="113,2,134.857,180.566,TEMP2,,,,,"/>
+<approved hash="113,2,134.857,145.006,TEMP0,,,,,"/>
+<approved hash="113,2,134.857,114.526,TEMP1,,,,,"/>
+<approved hash="113,2,134.857,78.9661,TEMP3,,,,,"/>
+<approved hash="113,1,56.5423,87.8561,MIC_HEADER,,,,,"/>
+<approved hash="113,1,-110.745,145.006,EXT_3V3,,,,,"/>
+<approved hash="113,1,-131.02,124.686,EXT_12V,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
